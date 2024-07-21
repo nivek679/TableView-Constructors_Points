@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectonstructors.Controller.ConstructorPointsController">
+   <children>
+      <TableView fx:id="tblConstructors" layoutX="89.0" layoutY="95.0" prefHeight="293.0" prefWidth="463.0">
+        <columns>
+          <TableColumn fx:id="clmCostructores" prefWidth="225.0" text="CONSTRUSTORES:" />
+          <TableColumn fx:id="clmPoints" minWidth="0.0" prefWidth="237.0" text="PUNTAJE:" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="154.0" layoutY="25.0" text="CONSTRUCTORES POINTS">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
